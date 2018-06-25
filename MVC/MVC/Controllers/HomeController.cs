@@ -24,15 +24,33 @@ namespace MVC.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contáctenos";
 
             return View();
         }
+        public IActionResult Registrar()
+        {
+            ViewData["Message"] = "Formulario de Registro";
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
             return View();
         }
+        public IActionResult MiSitio()
+        {
+            
+            return View();
+        }
+
+        public IActionResult FixtureMundial()
+        {
+
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

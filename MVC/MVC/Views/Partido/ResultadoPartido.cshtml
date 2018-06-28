@@ -1,0 +1,13 @@
+﻿
+@using ProdeFutbol.Entidades
+@model Partido
+@{
+
+    ViewData["Title"] = "ResultadoPartido";
+}
+
+<h2>Resultado del Partido: @Model.InformarResultados </h2>
+
+<h3> Equipo Local: @Model.EquipoLocal.Nombre - @Model.GolesLocal vs Equipo Visitante: @Model.EquipoVisitante.Nombre - @Model.GolesVisitante</h3>
+
+

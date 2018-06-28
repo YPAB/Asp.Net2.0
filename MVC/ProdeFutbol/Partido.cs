@@ -25,7 +25,7 @@ namespace ProdeFutbol.Entidades
                 }
                 else
                 {
-                    resultado = "empate";
+                    resultado = "Empate";
                 }
                 return resultado;
             } }
